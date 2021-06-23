@@ -4,6 +4,8 @@ $title-color   : #191919;
 $price-color   : #a3bbc8;
 $accent-bg     : #fef7f0;
 $footer-text   : #8d8d8d;
+$slider-top    : #fcd7b6;
+$btn           : #a3bbc8;
 
 
 %dmsans-700 {
@@ -24,4 +26,14 @@ $footer-text   : #8d8d8d;
 %rubik-400 {
     font-family: 'Rubik-Regular';
     font-weight: 400;
+}
+
+
+
+%btn {
+    background-color: $btn;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 18px;
+    @extend %rubik-500;
 }
