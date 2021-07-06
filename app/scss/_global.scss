@@ -26,3 +26,11 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.title {
+    display: flex;
+    justify-content: center;
+    @extend %dmsans-700;
+    font-size: 36px;
+    margin-bottom: 30px;
+    }
